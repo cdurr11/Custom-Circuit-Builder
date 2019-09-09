@@ -1,0 +1,295 @@
+.CircuitToggleButtons {
+  -webkit-touch-callout: none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+  position: relative;
+  background-color: #0074b7;
+  max-width: 100px;
+  min-height:95px;
+  z-index: auto;
+  top:15px;
+  vertical-align: top;
+  /* display: inline-block; */
+}
+
+.console {
+  -webkit-touch-callout: none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+  position: absolute;
+  display: inline-block;
+  background-color: #0074b7;
+  min-width: 800px;
+  min-height: 80px;
+  max-width: 80px;
+  top:625px;
+}
+
+#Button1 {
+  display: inline-block;
+  min-width: 100px;
+}
+
+#Button2 {
+  display: inline-block;
+  min-width: 100px;
+  margin-left:30px;
+}
+
+#namer {
+  -webkit-touch-callout: none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+ display : inline-block;
+ position: relative;
+ left: -10px;
+ max-width: 100px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 100px;
+}
+
+#labelInline1 {
+  font-family: sans-serif;
+  position:absolute;
+  left:-20px;
+  top: 22px;
+  display: inline;
+  width: 100px;
+  text-align: right;
+  color: #FFFFFF;
+  font-size: 30px;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+}
+
+#sub {
+  position: absolute;
+  left: 130px;
+  max-width: 62px;
+  top : 0px;
+  min-height: 62px;
+}
+
+.submitButton {
+  position: absolute;
+  left:220px;
+  top:10px;
+  min-height: 60px;
+  min-width: 90px;
+  max-width: 90px;
+  background-color: #33ACFF; /* Green */
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.submitButton:focus {
+  outline:0;
+}
+.submitButton:active {
+  background-color: #0074b7;
+}
+
+.submitButton:hover {
+
+  border: 3px solid #FFFFFF;
+}
+
+
+#labelInline2 {
+  position: absolute;
+  left: 375px;
+  padding-left: 0px;
+  top: 22px;
+  display: inline;
+  width: 100px;
+  text-align: right;
+  color: #FFFFFF;
+  font-size: 30px;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+}
+
+#namer input {
+ -webkit-touch-callout: none;
+ -webkit-user-select:none;
+ -khtml-user-select:none;
+ -moz-user-select:none;
+ -ms-user-select:none;
+ -o-user-select:none;
+ user-select:none;
+ border-radius: 3px;
+ display: inline-block;
+ border: 0;
+ border-bottom: 2px solid #1976D2;
+ width: 100%;
+ font-size: 30px;
+ line-height: 35px;
+ height: 40px;
+ text-align: center;
+ padding: 10px;
+ background: transparent;
+ color: #BBDEFB;
+ background-color: #33ACFF;
+}
+
+#namer input:focus {
+  -webkit-touch-callout: none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+  outline: 0;
+	color: #FFFFFF;
+}
+
+#namer input::placeholder {
+ color: #1976D2;
+}
+
+#namer2 input::placeholder {
+ color: #1976D2;
+}
+
+#namer2 input:focus {
+ outline: 0;
+	color: #FFFFFF;
+}
+
+#namer2 input {
+ border-radius: 3px;
+ display: inline-block;
+ border: 0;
+ border-bottom: 2px solid #1976D2;
+ width: 100%;
+ font-size: 18px;
+ line-height: 35px;
+ height: 40px;
+ text-align: center;
+ padding: 10px;
+ background: transparent;
+ color: #FFFFFF;
+ background-color: #33ACFF;
+}
+
+#namer2 {
+ display : inline-block;
+ position: absolute;
+ left: 220px;
+ min-width: 450px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 100px;
+}
+#MenuBar {
+  position: absolute;
+  top:0px;
+  left:0px;
+  width:800px;
+  height:125px;
+  background-color: #33ACFF;
+  z-index: auto;
+  text-align: center;
+}
+
+#activate-div{
+              display:inline-block;
+              visibility: hidden;}
+
+#activate-div2{
+              display:inline-block;
+              z-index: -1;
+              visibility: hidden;}
+
+.my-div{
+  position:relative;
+  display:inline-block;
+  min-width: 100px;
+  min-height: 95px;
+  background-color:green;
+  top:15px;
+  ;}
+
+.my-div2{
+  position:relative;
+  display:inline-block;
+  min-width: 100px;
+  min-height: 95px;
+  background-color:red;
+  top:15px;
+  ;}
+
+
+#activate-div:checked ~ div
+.my-div{background-color:red}
+
+#activate-div2:checked ~ label
+.my-div2{background-color:green}
+
+div:focus {
+    background-color:#b7d2ff;
+}
+
+#CircuitGrid {
+  position: absolute;
+  top:125px;
+  left:0px;
+  /* width:800px; */
+  /* height:475px; */
+  background-color: #A3DAFF;
+  z-index: auto;
+}
+
+.canvasWrapper {
+  position : relative;
+  /* text-align: center; */
+}
+
+
+.labl {
+    display : inline-block;
+    width: 20px;
+    min-width: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -2px;
+}
+.labl > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+.labl > input + div{ /* DIV STYLES */
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.labl > input:checked + div { /* (RADIO CHECKED) DIV STYLES */
+    background-color: #b7d2ff;
+}

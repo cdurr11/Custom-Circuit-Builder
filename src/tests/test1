@@ -1,0 +1,10 @@
+let types = {};
+let connects = {0:[1], 1:[2], 2:[3], 3:[4]};
+types[[0,1]] = "W";
+types[[1,0]] = "W";
+types[[1,2]] = "W";
+types[[2,1]] = "W";
+types[[2,3]] = "W";
+types[[3,2]] = "W";
+types[[3,4]] = "R";
+types[[4,3]] = "R";
